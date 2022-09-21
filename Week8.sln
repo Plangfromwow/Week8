@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller Practice", "Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopRegistrationLab", "CoffeeShopRegistrationLab\CoffeeShopRegistrationLab.csproj", "{76226522-1F45-456F-9113-0642B6E04ACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelDemo1", "ModelDemo1\ModelDemo1.csproj", "{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{76226522-1F45-456F-9113-0642B6E04ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76226522-1F45-456F-9113-0642B6E04ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76226522-1F45-456F-9113-0642B6E04ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
