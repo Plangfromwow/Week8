@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "ShowForm";
+}
+
+<h1>Add new instrument</h1>
+
+<form method="post" action="/inst/add">
+
+    Type: 
+        <select name="type">
+        <option>Piano</option>
+        <option>Electric Guitar</option>
+        <option>Synth</option>
+        <option>Trumpet</option>
+        </select>
+        <br />
+    <br />
+    Model: 
+        <input type="text" name="model"/>
+        <br />
+    <br />
+    Color:
+    <select name="color">
+        <option>Blue</option>
+        <option>Red</option>
+        <option>Purple</option>
+        <option>Black</option>
+    </select>
+    <br />
+    <br />
+    Year:
+        <input type="number" name="year"/>
+        <span class="text-danger">@ViewBag.YearMessage</span>
+    <br />
+    <br />
+    Price:
+    <input type="number" name="price" />
+    <span class="text-danger">@ViewBag.PriceMessage</span>
+    <br />
+    <br />
+    <input type="submit" />
+</form>

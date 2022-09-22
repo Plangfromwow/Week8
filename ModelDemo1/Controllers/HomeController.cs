@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ModelDemo1.Models;
 using System.Diagnostics;
+using System.Numerics;
 
 namespace ModelDemo1.Controllers
 {
@@ -28,7 +29,10 @@ namespace ModelDemo1.Controllers
             if (per.Born > 2004)
             {
                 // let's use a different view for this one because they are young 
-                return View("Under18");
+                //return View("Under18");
+                ViewBag.BornMessage = "Please make sure you're above 18";
+                return View("ShowRegister");
+                
             }
             else
             {

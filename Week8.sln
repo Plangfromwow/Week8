@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTMLPractice", "HTMLPractic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalWebsiteLab", "PersonalWebsiteLab\PersonalWebsiteLab.csproj", "{C3E88540-98FD-455D-BD6B-7EDF2F0FAE08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDemo", "FormDemo\FormDemo.csproj", "{1A14795C-F6AF-4474-B110-70256E0B602F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormDemo", "FormDemo\FormDemo.csproj", "{1A14795C-F6AF-4474-B110-70256E0B602F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller Practice", "Controller Practice\Controller Practice.csproj", "{DE91A556-79DE-4AAE-B836-85E32A017101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller Practice", "Controller Practice\Controller Practice.csproj", "{DE91A556-79DE-4AAE-B836-85E32A017101}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopRegistrationLab", "CoffeeShopRegistrationLab\CoffeeShopRegistrationLab.csproj", "{76226522-1F45-456F-9113-0642B6E04ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeShopRegistrationLab", "CoffeeShopRegistrationLab\CoffeeShopRegistrationLab.csproj", "{76226522-1F45-456F-9113-0642B6E04ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelDemo1", "ModelDemo1\ModelDemo1.csproj", "{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelDemo1", "ModelDemo1\ModelDemo1.csproj", "{59BE4A83-E33A-46DC-9DD0-F1BE7C0A5354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice1", "Practice1\Practice1.csproj", "{FA7F0670-F57D-4AE6-AF8C-A636D89B1146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice1", "Practice1\Practice1.csproj", "{FA7F0670-F57D-4AE6-AF8C-A636D89B1146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentsDemo", "InstrumentsDemo\InstrumentsDemo.csproj", "{27EC25C6-1F17-4ADB-A149-A197EA6DF430}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FA7F0670-F57D-4AE6-AF8C-A636D89B1146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA7F0670-F57D-4AE6-AF8C-A636D89B1146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA7F0670-F57D-4AE6-AF8C-A636D89B1146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EC25C6-1F17-4ADB-A149-A197EA6DF430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EC25C6-1F17-4ADB-A149-A197EA6DF430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EC25C6-1F17-4ADB-A149-A197EA6DF430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EC25C6-1F17-4ADB-A149-A197EA6DF430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
